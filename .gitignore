@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+dist/
+*.pyc
+examples/bench_*.log
+examples/generated_*.log
+examples/generated_*.expected.json

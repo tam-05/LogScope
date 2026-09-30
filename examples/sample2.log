@@ -1,0 +1,24 @@
+2026-09-30 09:15:21 INFO auth-service User login successful
+2026-09-30 09:15:25 ERROR payment-service Connection timeout after 30s
+2026-09-30 09:15:29 DEBUG auth-service Checking session token
+2026-09-30 09:16:02 WARN auth-service Response time degraded
+2026-09-30 09:16:15 ERROR billing-service Invalid account state
+2026-09-30 09:16:22 INFO payment-service Payment request received
+2026-09-30 09:16:30 ERROR payment-service Connection refused
+2026-09-30 09:17:01 FATAL database-service Database connection lost
+2026-09-30 09:17:08 INFO billing-service Invoice generated successfully
+2026-09-30 09:17:15 ERROR payment-service Payment gateway unavailable
+2026-09-30 09:17:20 DEBUG payment-service Retrying payment request
+2026-09-30 09:18:03 WARN billing-service Invoice generation taking too long
+2026-09-30 09:18:11 ERROR auth-service Invalid authentication token
+2026-09-30 09:18:25 INFO auth-service User logout successful
+2026-09-30 09:18:40 ERROR database-service Query execution failed
+2026-09-30 09:19:02 INFO payment-service Retry succeeded
+2026-09-30 09:19:15 ERROR billing-service Unable to update invoice
+2026-09-30 09:19:30 WARN payment-service High latency detected
+this is an invalid log line
+error billing-service No Auth token
+2026-09-30 ERROR payment-service Missing timestamp
+2026-09-30 09:20:15 UNKNOWN auth-service Unknown log level
+2026-09-30 09:20:30 ERROR payment-service
+2026-09-30 09:20:45 INFO notification-service Email notification sent

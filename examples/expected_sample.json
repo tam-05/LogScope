@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "total_lines": 7,
+  "parsed_lines": 6,
+  "unparseable_lines": 1,
+  "total_errors": 3,
+  "error_levels": ["ERROR", "FATAL"],
+  "error_counts": {
+    "auth-service": 0,
+    "billing-service": 1,
+    "payment-service": 2
+  },
+  "top_service": "payment-service",
+  "top_services": ["payment-service"],
+  "top_error_count": 2,
+  "parse_error_counts": {"invalid_format": 1},
+  "parse_error_samples": [
+    {"line_number": 7, "reason": "invalid_format"}
+  ]
+}
